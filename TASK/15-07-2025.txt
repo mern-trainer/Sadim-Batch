@@ -1,0 +1,24 @@
+1. Create a newspaper article layout using:
+   - <h1> for newspaper name
+   - <img> for featured image
+   - <h2> for headline
+   - <p> for article content
+   - <p> for byline and date
+   - <p> for sources and references
+
+2. Design a media gallery using:
+   - <h2> for gallery title
+   - <p> for description
+   - <img> for images
+   - <video> for video content
+   - <p> for captions
+
+3. Add an external link using:
+   - <a> tag with href="https://www.hostinger.com"
+   - target="_blank" attribute
+
+4. Develop a multi-page website structure using:
+   - HTML files: index.html, contact.html, about.html
+   - <a> tags for navigation
+   - Relative paths
+   - <h1>, <h2>, <p> for content structure
