@@ -1,0 +1,56 @@
+CSS Tasks:
+
+1. Create a flex container with 3 items that are evenly spaced horizontally using justify-content
+
+2. Build a responsive card layout using flexbox with wrap enabled, where each card has:
+   - Padding: 20px
+   - Margin: 10px
+   - Border: 2px solid #333
+   - Background color: #f5f5f5
+
+3. Design a simple navigation bar using flex with:
+   - Background color: #333
+   - Text color: white  
+   - Padding: 10px
+   - Basic spacing between menu items
+
+4. Create a color palette section with 5 boxes:
+   - Each box 100x100px
+   - Different background colors
+   - Border radius: 10px
+   - Margin: 5px between boxes
+
+5. Build a content section with:
+   - Padding: 30px
+   - Border: 1px solid #ddd
+   - Background color: white
+
+6. Design a simple footer with:
+   - Center content using flex
+   - Light gray background color (#cccccc)
+   - Padding: 20px
+   - Dark text color (#333333)
+
+7. Create a profile card with:
+   - Circular profile image
+   - Border: 3px solid #3498db
+   - Padding: 25px
+   - Background: #74A8C3
+
+8. Build a pricing table using flex:
+   - 3 columns
+   - Different background colors for each plan
+   - Border radius: 8px
+   - Margin between columns: 20px
+
+9. Design a contact form container:
+   - Width: 400px
+   - Padding: 30px
+   - Background color: #fafafa
+   - Border: 1px solid #ccc
+   - Border radius: 5px
+
+10. Create a gallery grid using flex:
+    - Gap: 15px
+    - Border: 1px solid #eee
+    - Padding: 10px for each image
