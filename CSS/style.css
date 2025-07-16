@@ -1,0 +1,85 @@
+ /* Styling Methods ->Inline ->Internal ->External */
+/* 
+    Selectors
+    1. Universal
+    2. id
+    3. class
+    4. element
+    5. group
+    6. child 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#demo_1 {
+    color: red;
+    background-color: black;
+}
+
+.demo {
+    background-color: green;
+    color: white;
+}
+
+div {
+    color: blue;
+}
+
+.item_1,
+.item_2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.item_2 {
+    margin-top: 20px;
+}
+
+.parent .child {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-top: 10px;
+}
+
+/* display */
+
+/* block, inline, inline-block, flex, grid */
+
+.d-block{
+    display: block;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.d-inline-block{
+    display: inline-block;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.d-flex{
+    height: 400px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.d-flex div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+

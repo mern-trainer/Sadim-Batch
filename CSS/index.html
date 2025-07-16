@@ -4,53 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-    <!-- 
-        Styling Methods
-        -> Inline
-        -> Internal
-        -> External
-    -->
-    <style>
-        /* 
-            Selectors
-            1. Universal
-            2. id
-            3. class
-            4. element
-            5. group
-            6. child 
-        */
-        *{
-            padding: 0;
-            margin: 0;
-        }
-       
-        .demo{
-            background-color: green;
-            color: white;
-        }
-        div{
-            color: blue;
-        }
-        .item_1, .item_2{
-            width: 200px;
-            height: 200px;
-            background-color: red;
-        }
-        .item_2{
-            margin-top: 20px;
-        }
-        .parent .child{
-            height: 100px;
-            width: 100px;
-            background-color: green;
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- <div style="color: red; background-color: black; width: 100px; padding: 10px; margin-right: 100px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam tempora quaerat, aliquid atque esse id? Incidunt vitae possimus, voluptatibus minus, illum tempora officia quod iste mollitia repellendus sed error labore?</div> -->
-    <p id="demo_1" class="demo">Hello</p>
+    <!-- <p id="demo_1" class="demo">Hello</p>
     <h1 id="demo_2" class="demo">Hey</h1>
     <div>Hello</div>
     <div>Hey</div>
@@ -63,6 +21,23 @@
     <div class="parent">
         <div class="child"></div>
     </div>
-    <div class="child"></div>
+    <div class="child"></div> -->
+
+    <span class="d-block">Hello</span>
+    <div class="d-inline">Hey</div>
+    <span class="d-inline-block">sdfsdf</span>
+    <span>hey</span>
+    <div style="width: 300px;">
+        Hello
+    </div>
+    <span>Hey</span>
+
+    <div class="d-flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
 </body>
 </html>
